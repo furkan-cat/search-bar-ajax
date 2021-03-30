@@ -4,11 +4,8 @@ const characterList = document.getElementById("characterList");
 const searchBar = document.getElementById("searchBar");
 let filmCharacters = [];
 
-console.log(searchBar);
-
 searchBar.addEventListener("keyup", (e) => {
   const searchString = e.target.value.toLowerCase();
-  console.log(searchString);
   const filteredCharacters = filmCharacters.filter((character) => {
     return (
       character.name.toLowerCase().includes(searchString) ||
