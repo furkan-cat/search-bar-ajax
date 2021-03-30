@@ -1,5 +1,5 @@
 [[redirects]]
   from = "https://eager-torvalds-cd4a73.netlify.app"
   to = "http://hp-api.herokuapp.com/api/characters"
-  status = 200
+  status = 301
   force = true
