@@ -14,14 +14,6 @@ searchBar.addEventListener("keyup", (e) => {
   });
   displayCharacters(filteredCharacters);
 });
-// // XMLHttpRequest
-// const http = new XMLHttpRequest();
-// const url = "http://hp-api.herokuapp.com/api/characters";
-// http.open("GET", url);
-// http.send();
-// http.onreadystatechange = (e) => {
-//   //console.log(http.responseText);
-// };
 
 const loadCharacters = async () => {
   try {
