@@ -19,7 +19,8 @@
 ## About The Project
 Simple AJAX project with search bar. Please type in order to see film characters on the screen.
 
-[Project-Link](https://eager-torvalds-cd4a73.netlify.app/)
+###[Project-Link](https://eager-torvalds-cd4a73.netlify.app/)
+
 <img src="images/project.png" width="1000"> 
 
 #### JavaScript Used
